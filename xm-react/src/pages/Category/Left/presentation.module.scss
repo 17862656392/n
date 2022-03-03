@@ -1,0 +1,23 @@
+.list {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	li {
+		box-sizing: border-box;
+		margin-bottom: 14px;
+		display: flex;
+		align-items: center;
+		flex-grow: 1;
+		font-size: 15px;
+		&.active span {
+			color: #c4193f;
+			border-left: 4px solid #c4193f;
+		}
+		span {
+			width: 100%;
+			color: #939393;
+			text-align: center;
+			border-left: 4px solid transparent;
+		}
+	}
+}

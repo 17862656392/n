@@ -1,0 +1,23 @@
+.avatar-wrapper {
+	padding: 13px;
+	img {
+		width: 100%;
+	}
+}
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	li {
+		text-align: center;
+		width: 33.333333%;
+		a {
+			box-sizing: border-box;
+			padding: 0 10px;
+			display: block;
+			font-size: 14px;
+			color: #343434;
+			img { width: 100%; }
+		}
+	}
+}
